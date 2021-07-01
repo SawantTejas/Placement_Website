@@ -92,6 +92,7 @@ h2 {
   width: 100%;
   height: 50vh;
   min-height: 350px;
+  max-width: none;
   background-image: linear-gradient(to bottom, #068481, #489f9d, #73bbba, #9bd8d7, #c3f5f5);
   background-size: cover;
   display: flex;
