@@ -68,6 +68,14 @@ h2 {
   width: 100%;
   height: 50vh;
   min-height: 350px;
+  background: -moz-linear-gradient(to bottom, #068481, #489f9d, #73bbba, #9bd8d7, #c3f5f5); /* FF 3.6+ */
+  background: -ms-linear-gradient(to bottom, #068481, #489f9d, #73bbba, #9bd8d7, #c3f5f5); /* IE10 */
+  background: -webkit-gradient(to bottom, #068481, #489f9d, #73bbba, #9bd8d7, #c3f5f5); /* Safari 4+, Chrome 2+ */
+  background: -webkit-linear-gradient(to bottom, #068481, #489f9d, #73bbba, #9bd8d7, #c3f5f5); /* Safari 5.1+, Chrome 10+ */
+  background: -o-linear-gradient(to bottom, #068481, #489f9d, #73bbba, #9bd8d7, #c3f5f5); /* Opera 11.10 */
+  filter: progid:DXImageTransform.Microsoft.gradient(to bottom, #068481, #489f9d, #73bbba, #9bd8d7, #c3f5f5); /* IE6 & IE7 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(to bottom, #068481, #489f9d, #73bbba, #9bd8d7, #c3f5f5);"; /* IE8+ */
+  background: linear-gradient(black, transparent); /* the standard */
   background-image: linear-gradient(to bottom, #068481, #489f9d, #73bbba, #9bd8d7, #c3f5f5);
   background-size: cover;
   display: flex;
